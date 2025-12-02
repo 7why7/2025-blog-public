@@ -222,5 +222,15 @@
 			"图片"
 		],
 		"stars": 3
+	},
+	{
+		"name": "Google",
+		"logo": "blob:https://eddydong.netlify.app/e7c6e1ec-87bc-429c-9050-c80244c720b0",
+		"url": "https://www.google.com/",
+		"description": "https://www.google.com/\n",
+		"tags": [
+			"Google"
+		],
+		"stars": 3
 	}
 ]
