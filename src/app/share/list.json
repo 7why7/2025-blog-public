@@ -222,15 +222,5 @@
 			"图片"
 		],
 		"stars": 3
-	},
-	{
-		"name": "v0",
-		"logo": "blob:https://eddy-dong.vercel.app/6523ba59-8d29-4330-b8a3-fc0fb19acc79",
-		"url": "https://v0.app/",
-		"description": "AI",
-		"tags": [
-			"AI"
-		],
-		"stars": 3
 	}
 ]
