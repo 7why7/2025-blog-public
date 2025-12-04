@@ -224,12 +224,22 @@
 		"stars": 3
 	},
 	{
-		"name": "Google",
-		"logo": "blob:https://eddydong.netlify.app/e7c6e1ec-87bc-429c-9050-c80244c720b0",
-		"url": "https://www.google.com/",
-		"description": "https://www.google.com/\n",
+		"name": "网盘",
+		"logo": "https://www.pansearch.me/favicon.png",
+		"url": "https://www.pansearch.me/",
+		"description": "PanSearch-网盘资源搜索",
 		"tags": [
-			"Google"
+			"网盘"
+		],
+		"stars": 3
+	},
+	{
+		"name": "v0",
+		"logo": "https://v0.app/chat-static/assets/homepage/ios/ios-light.png",
+		"url": "https://v0.app/",
+		"description": "text to ui",
+		"tags": [
+			"AI"
 		],
 		"stars": 3
 	}
