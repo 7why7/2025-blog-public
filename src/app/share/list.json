@@ -312,5 +312,15 @@
 			"部署"
 		],
 		"stars": 3
+	},
+	{
+		"name": "Ghiblio",
+		"logo": "https://ghiblio.art/icons/5.png",
+		"url": "https://ghiblio.art/zh/sora-2",
+		"description": "使用 Sora2 创建惊艳的视频\n先进的AI视频生成技术，具备真实物理效果、同步音频和前所未有的创意控制。体验下一代视频创作技术",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
 	}
 ]
