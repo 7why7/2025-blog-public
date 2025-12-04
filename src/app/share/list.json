@@ -184,16 +184,6 @@
 		"stars": 5
 	},
 	{
-		"name": "Making Software",
-		"logo": "https://www.makingsoftware.com/favicon.ico",
-		"url": "https://www.makingsoftware.com/",
-		"description": "面向软件设计和开发人员的参考手册。样式很棒的学习网站。",
-		"tags": [
-			"学习"
-		],
-		"stars": 4
-	},
-	{
 		"name": "Ease 函数参考",
 		"logo": "https://easings.net/96.8aa68ac4.png",
 		"url": "https://easings.net/",
@@ -282,5 +272,45 @@
 			"AI"
 		],
 		"stars": 5
+	},
+	{
+		"name": "AI Prompt 优化工具",
+		"logo": "https://cdn-icons-png.flaticon.com/128/17653/17653338.png",
+		"url": "https://systemprompt.icu/",
+		"description": "让AI更好地理解你的 Prompt\n输入你的原始Prompt，我们的AI将帮助你优化它，使其更加清晰、具体和有效。\n\n",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
+	},
+	{
+		"name": "精选提示词库",
+		"logo": "https://prmbr.com/assets/favicon.ico",
+		"url": "https://prmbr.com/",
+		"description": "精选提示词库\n欢迎来到 精选提示词库，本项目按模态和任务类型整理常用提示词，并提供多语言支持。",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
+	},
+	{
+		"name": "imgant图床",
+		"logo": "https://imgant.com/favicon.ico",
+		"url": "https://imgant.com/",
+		"description": "无限图片储存数量，你可以上传不限数量的图片！\n\n图片首次访问后缓存，\"永久\"有效，包括全球分布的 CDN，以确保尽可能快地提供图像。\n\nImgAnt 图床专注于稳定存储与全球分发，基于 imgant.com 域名提供服务",
+		"tags": [
+			"图片"
+		],
+		"stars": 3
+	},
+	{
+		"name": "Vercel",
+		"logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico",
+		"url": "https://vercel.com/login?next=%2Faiyouyous-projects-48dc63e3",
+		"description": "Vercel",
+		"tags": [
+			"部署"
+		],
+		"stars": 3
 	}
 ]
