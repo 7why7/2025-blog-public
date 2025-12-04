@@ -5,6 +5,7 @@ import Card from '@/components/card'
 import { useCenterStore } from '@/hooks/use-center'
 import { useConfigStore } from './stores/config-store'
 import { CARD_SPACING } from '@/consts'
+import { HomeDraggableLayer } from './home-draggable-layer'
 
 export default function ClockCard() {
 	const center = useCenterStore()
@@ -28,15 +29,17 @@ export default function ClockCard() {
 	const y = styles.offsetY !== null ? center.y + styles.offsetY : center.y - styles.offset - styles.height
 
 	return (
-		<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className='p-2'>
-			<div className='flex h-full w-full items-center justify-center gap-1.5 rounded-4xl bg-[#DDDDDD]'>
-				<SevenSegmentDigit value={parseInt(hours[0])} />
-				<SevenSegmentDigit value={parseInt(hours[1])} />
-				<Colon />
-				<SevenSegmentDigit value={parseInt(minutes[0])} />
-				<SevenSegmentDigit value={parseInt(minutes[1])} />
-			</div>
-		</Card>
+		<HomeDraggableLayer cardKey='clockCard' x={x} y={y} width={styles.width} height={styles.height}>
+			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className='p-2'>
+				<div className='bg-secondary/20 flex h-full w-full items-center justify-center gap-1.5 rounded-4xl'>
+					<SevenSegmentDigit value={parseInt(hours[0])} />
+					<SevenSegmentDigit value={parseInt(hours[1])} />
+					<Colon />
+					<SevenSegmentDigit value={parseInt(minutes[0])} />
+					<SevenSegmentDigit value={parseInt(minutes[1])} />
+				</div>
+			</Card>
+		</HomeDraggableLayer>
 	)
 }
 
@@ -60,7 +63,7 @@ function SevenSegmentDigit({ value, className }: SevenSegmentDigitProps) {
 	}
 
 	const segments = segmentMap[value as keyof typeof segmentMap] || segmentMap[0]
-	const activeColor = '#334F52'
+	const activeColor = 'var(--color-primary)'
 	const inactiveColor = 'rgba(0, 0, 0, 0.05)'
 
 	return (
