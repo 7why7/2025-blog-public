@@ -332,5 +332,45 @@
 			"编辑器"
 		],
 		"stars": 3
+	},
+	{
+		"name": "临时邮箱",
+		"logo": "blob:https://eddy-dong.vercel.app/edce30d9-c251-4a8b-9a14-b3b9a59facb4",
+		"url": "http://24mail.chacuo.net/",
+		"description": "临时邮箱",
+		"tags": [
+			"虚拟号码"
+		],
+		"stars": 3
+	},
+	{
+		"name": "临时邮箱",
+		"logo": "blob:https://eddy-dong.vercel.app/d6226005-30ff-4d89-9cc9-658902b342d6",
+		"url": "https://temp-mail.org/zh/view/67a95e279e95300012b94b78",
+		"description": "临时邮箱",
+		"tags": [
+			"虚拟号码"
+		],
+		"stars": 3
+	},
+	{
+		"name": "生成视频",
+		"logo": "https://github.githubassets.com/favicons/favicon.png",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
+	},
+	{
+		"name": "编辑器",
+		"logo": "https://github.githubassets.com/favicons/favicon.png",
+		"url": "https://github.com/yuaotian/go-cursor-help",
+		"description": "编辑器",
+		"tags": [
+			"编辑器"
+		],
+		"stars": 3
 	}
 ]
