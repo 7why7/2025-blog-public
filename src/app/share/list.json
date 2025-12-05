@@ -392,5 +392,15 @@
 			"AI"
 		],
 		"stars": 3
+	},
+	{
+		"name": "AI生成小红书爆款封面和图文",
+		"logo": "https://jiandan.link/_nuxt/XiaoHongShu.D_o42Rf6.png",
+		"url": "https://github.com/ruanyf/weekly/issues/8343",
+		"description": "简单设计\n网址：https://jiandan.link\n功能很强大，有很多免费工具，每天可以免费领取AI创作次数，很好用！",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
 	}
 ]
