@@ -382,5 +382,15 @@
 			"AI"
 		],
 		"stars": 3
+	},
+	{
+		"name": "红墨-小红书图文",
+		"logo": "https://github.githubassets.com/favicons/favicon.png",
+		"url": "https://github.com/HisMax/RedInk",
+		"description": "红墨 - 基于🍌Nano Banana Pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》",
+		"tags": [
+			"AI"
+		],
+		"stars": 3
 	}
 ]
